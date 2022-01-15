@@ -26,7 +26,7 @@ header{
 header, #principal, footer {
     background-color: white;
     border-radius: .2em;
-    margin: 0.7em auto;
+    margin: 0.5em auto;
     text-align: center;
 }
 .containerBorder {
@@ -126,9 +126,18 @@ td.status {
 }
 .active{
     background-color: #73c91b;
+
 }
 .inactive{
     background-color: ff6666;
+}
+.activeTr{
+    background-color: #a5d6a7ab;
+    transition: .8s;
+}
+.inactiveTr{
+    background-color: transparent;
+    transition: .8s
 }
 .tableButtons {
     margin: 18px;

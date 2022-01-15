@@ -1,11 +1,12 @@
 $(document).ready(function(){
     $.notify("Cree registros aleatoriamente", "info")
-    $.notify("El botón crear nuevo, está habilitado!", "info")
+    $.notify("El botón crear nuevo, está habilitado!", "warning")
 
 
     //create a new user
     $('#btnNewUser').click(function(){
 
+        //random names
         let names = ['Daniel', 'Esteban', 'Magali', 'Elena', 'Harold', 'Elias', 'Estiven', 'Flor', 'Huber'];
         let campos = ['Google', 'Servagro', 'Netlify', 'Digital', 'Microsoft', 'Company', 'Computrabajo', 'Developer', 'Sistem'];
         let types = ['CC', 'T.I', 'C.E'];
@@ -34,8 +35,14 @@ $(document).ready(function(){
         let lastTr = $('#userTable tbody tr:last')
         let statusTd = lastTr.find('.status')
         if(statusTd.hasClass('inactive')){
+          lastTr.addClass('activeTr');
             statusTd.html('Activo').removeClass('inactive').addClass('active')
+            
             $.notify("Se actualizó el último registro", "success")
+
+            setTimeout(function () {
+              lastTr.addClass('inactiveTr')
+          }, 1000);
         }else{
             $.notify("El último registro ya está activo", "info")
         }
