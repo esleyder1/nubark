@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 62.5%;
+    background-image: url(../images/background.jpg);
+    background-color: gray;
+
+    font-family: Helvetica;
+}
+.content {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 2.5em;
+}
+h1 {
+    color: #f60;
+    text-align: center;
+    margin: 0.25em auto;
+    font-size: 2em;
+}
+header{
+    padding: .4em;
+}
+header, #principal, footer {
+    background-color: white;
+    border-radius: .2em;
+    margin: 0.7em auto;
+    text-align: center;
+}
+.containerBorder {
+    padding-bottom: 13px;
+    border-bottom: 1px solid #00000054;
+}
+#content {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+#principal, footer {
+    background-color: white;
+    border-radius: 0.2em;
+    display: block;
+    padding-top: .4em;
+    min-height: 200px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+footer{
+    min-height: auto !important; 
+}
+footer div img {
+    width: 40%;
+    margin: 12px;
+}
+.custom-btn {
+    color: #000;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+      text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 1px rgba(0,0,0,0);
+    outline: none;
+    border: 1px solid #ba6;
+    font-weight:bold;
+  }
+  .custom-btn:active{
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+  }
+  .btn-7{
+    border-color: #7c7c7c;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(#e6e6e6));
+  }
+.back{
+    padding: 8px 12px;
+    margin-right: .5em;
+}   
+.start{
+    padding: 8px 24px;
+}  
+.exit{
+    padding: 8px 24px;
+}   
+.infoUser{
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    font-weight: bold;
+}
+span.infoUserLabel {
+    color: #01d3d3;
+} 
+.wrapMainTex{
+    margin-top: .5em;
+}
+.containerText {
+    background: hsl(0deg 2% 90% / 51%);
+    color: #01d3d3;
+    font-size: 20px;
+    width: 79%;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 5px;
+}
+table#userTable {
+    width: 100%;
+    text-align: center;
+}
+
+table#userTable thead tr th {
+    padding: 4px;
+}
+td.status {
+    border-radius: 4px;
+    color: white;
+}
+.active{
+    background-color: #73c91b;
+}
+.inactive{
+    background-color: ff6666;
+}
+.tableButtons {
+    margin: 18px;
+}
+
+/* @media screen and (min-width: 44em) {
+    h1 {
+        font-size: 5em;
+   }
+    #principal {
+        width: 70%;
+   }
+    aside {
+        width: 29%;
+        margin-top: 0;
+   }
+} */

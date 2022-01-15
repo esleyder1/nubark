@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <title>Nubark - Servagro Test</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Prueba de conocmiento web para la empresa Servagro"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+    <link
+      href="css/libs/font-awesome-4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/libs/notify.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="content">
+
+      <header>
+        <div class="headerImage">
+          <img src="images/logo.png" />
+        </div>
+      </header>
+
+      <section id="principal">
+        <nav class="navbar containerBorder">
+          <button class="button custom-btn btn-7 back">
+            <i class="fa fa-arrow-left"></i>
+          </button>
+          <button class="button custom-btn btn-7 start">Inicio</button>
+          <div class="infoUser">
+            <p>
+              <span class="infoUserLabel">Usuario:</span>
+              <span class="infoUserName">Manager</span>
+            </p>
+          </div>
+          <button class="button custom-btn btn-7 exit">Salir</button>
+        </nav>
+        <div class="wrapMainTex containerBorder">
+          <div class="containerText">
+            Administración de parámetros de inicio
+          </div>
+        </div>
+        <div class="wrapMainTex containerBorder">
+          <div class="containerText">Listado de parámetros</div>
+        </div>
+        <div class="wrapMainTex containerBorder">
+          <table id="userTable">
+            <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Campo</th>
+              <th>Tipo</th>
+              <th>Estado</th>
+              <th>Editar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Peter</td>
+              <td>Griffin</td>
+              <td>CC</td>
+              <td class="status inactive">Inactivo</td>
+              <td>
+                <button class="button custom-btn btn-7 back">
+                  <i class="fa fa-pencil"></i>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>Esleyder</td>
+              <td>Ordoñez</td>
+              <td>CC</td>
+              <td class="status inactive">Inactivo</td>
+              <td>
+                <button class="button custom-btn btn-7 back">
+                  <i class="fa fa-pencil"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+          </table>
+
+          <div class="tableButtons">
+            <button id="btnNewUser" class="button custom-btn btn-7 exit">Crear nuevo</button>
+          </div>
+          <div class="tableButtons">
+          <button id="btnUpdateUser" class="button custom-btn btn-7 exit">Actualizar lista</button>
+        </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="headerImage">
+          <img src="images/logo.png" />
+          <img src="images/logo.png" />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
