@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Nubark - Servagro Test</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Prueba de conocmiento web para la empresa Servagro"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+    <link
+      href="css/libs/font-awesome-4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/input.css" />
+    <link rel="stylesheet" href="css/matriz.css" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>
+    <script src="js/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/libs/notify.js"></script>
+    <script src="js/matriz.js"></script>
+  </head>
+  <body>
+    <div class="content">
+
+     
+      <section id="principal">
+        <div class="container">
+            <div class="heading">
+                
+                <label id="userLabel">Ingrese un numero para determinar el numero de filas y columnas</label>
+                <p id="result"></p>
+                <div class="box">
+                    <div class="quantity">
+                      <span class="quantity-add quantity-button"></span>
+                        <input id="userNumber" type="number" step="1" min="2" max="9" value="2">
+                        <span class="quantity-remove quantity-button"></span>
+                    </div>
+                    <div class="containerButton">
+                        <div class="center">
+                            <p>Habilita el botón para llenar la matriz con numeros aleatorios</p>
+                            <input type="checkbox" id="randomNumbers"/>
+                          </div>
+                        <div class="span3">
+                            <a id="userButton" href="#" class="btn btn-large btn-block">Crear matriz</a>
+                            <a id="userButtonReload" href="#" class="btn btn-large btn-block hidden">Volver a crear</a>
+                          </div>
+                    </div>
+                  </div>
+                 
+                  
+
+            </div>
+            
+            <div class="wrap">
+                <div class="game-container">
+              <div class="game-message">
+                
+              </div>
+
+          
+              <div class="grid-container">
+
+
+              </div>
+
+            </div>
+        </div>
+
+          </div>
+          
+            
+              
+      </section>
+    
+    </div>
+  </body>
+</html>

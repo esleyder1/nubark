@@ -1,0 +1,12 @@
+##
+La prueba se realizó unicamente con ["HTML","CSS","JS"]
+
+usé Jquery para el manejo de eventos y notify para las notificaciones
+adicionál usé fontawesome para los iconos.
+
+
+visita el link para ver la prueba web.
+https://esleyder1.github.io/nubark/
+
+o abre el archivo 
+index.html
